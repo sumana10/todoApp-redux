@@ -19,6 +19,7 @@ const Todo = ({todos, markComplete}) => {
     </ListGroup>
   )
 }
+//todos comes from central state
 const mapStateToProps = state =>({
   todos: state.todos
 })

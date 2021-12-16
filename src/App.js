@@ -11,6 +11,7 @@ import {Provider} from 'react-redux'
 import store from "./store"
 
 function App() {
+//provider makes available store to components
   return (
     <Provider store={store}>
       <Container fluid>

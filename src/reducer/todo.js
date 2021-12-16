@@ -1,5 +1,8 @@
 import { ADD_TODO, REMOVE_TODO } from "../action/action-type";
 
+//todo reducer
+//reducer takes two parameter state and action and return new state
+
 const initialstate = [];
 
 export default (state = initialstate, action) => {
