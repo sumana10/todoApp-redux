@@ -10,7 +10,7 @@ import {
 } from 'reactstrap'
 
 import {v4} from 'uuid'
-
+//implementation of version of redux for react
 import {connect} from 'react-redux'
 
 import {addTodo} from  '../action/todo'
@@ -56,7 +56,7 @@ const mapStateToProps = state => ({
  //to bring data from the state into component
  //from the central state into your application
 })
-
+//dispatch action from component
 const mapDispatchToProps = dispatch =>({
 
   addTodo: todo =>{
@@ -64,4 +64,5 @@ const mapDispatchToProps = dispatch =>({
   }
 
 })
+//connect redux with react
 export default connect(mapStateToProps, mapDispatchToProps)(TodoForm)
